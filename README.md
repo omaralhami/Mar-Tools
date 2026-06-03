@@ -1,41 +1,59 @@
-# Mar Tools — Public Downloads
+# Mar Tools Downloads
 
-Public release repository for Mar Tools desktop installers.
+> Official Windows installers for the [Mar Tools](https://martools.net) desktop suite. One account. Multiple apps.
 
-**Website:** [martools.net](https://martools.net)  
-**Main development repo:** private / separate — this repo is **downloads only**.
+[![Website](https://img.shields.io/badge/website-martools.net-8b7355?style=for-the-badge)](https://martools.net)
+[![Platform](https://img.shields.io/badge/platform-Windows%20x64-0078d4?style=for-the-badge&logo=windows&logoColor=white)](https://martools.net/tools)
+[![Help Center](https://img.shields.io/badge/docs-help%20center-5865F2?style=for-the-badge&logo=readthedocs&logoColor=white)](https://martools.net/help)
 
-## Releases
+## Overview
 
-| Tool | Folder | Description |
-|------|--------|-------------|
-| SteaMar | [`releases/steamar/`](releases/steamar/) | Steam library utility |
-| SpotiMar | [`releases/spotimar/`](releases/spotimar/) | Spotify client patcher (Windows) |
-| MASMar | [`releases/masmar/`](releases/masmar/) | Windows licensing utility |
+This repository hosts **public release files** for Mar Tools desktop applications. When a new version is published, the installer for each app is added here so users can download it directly.
 
-## File naming
+Future Mar Tools apps will be released in this repository as they become available.
 
-Use the MSI filename from the Tauri build output, for example:
+## Available downloads
 
-- `SteaMar_3.0.0_x64_en-US.msi`
-- `SpotiMar_1.0.0_x64_en-US.msi`
-- `MASMar_1.0.0_x64_en-US.msi`
+| App | Version | Description | Download |
+| --- | --- | --- | --- |
+| **SteaMar** | 3.0.0 | Steam library utility | [Download MSI](https://github.com/omaralhami/Mar-Tools/raw/main/releases/steamar/SteaMar_3.0.0_x64_en-US.msi) |
+| **SpotiMar** | 1.0.0 | Spotify client patcher | [Download MSI](https://github.com/omaralhami/Mar-Tools/raw/main/releases/spotimar/SpotiMar_1.0.0_x64_en-US.msi) |
+| **MASMar** | Coming soon | Windows licensing utility | Not yet available |
 
-Keep one **latest** copy per tool (overwrite on new release) or add versioned subfolders if you prefer history in git.
+Browse all files under [`releases/`](releases/).
 
-## Admin download URLs
+## Requirements
 
-Point Mar Tools website admin **Tool download links** at the raw GitHub URL for each MSI, for example:
+- **OS:** Windows 10 or later (64-bit)
+- **Account:** [Mar Tools](https://martools.net) membership (sign in with Discord)
+- **Network:** Internet required for first sign-in and tier sync
+
+Some features depend on your membership tier. See the [Help Center](https://martools.net/help) for details.
+
+## Getting started
+
+1. Download the installer for the app you want from the table above.
+2. Run the `.msi` file and follow the setup steps.
+3. Open the app and sign in with Discord (same account as [martools.net](https://martools.net)).
+4. Visit the [Tools page](https://martools.net/tools) or [Help Center](https://martools.net/help) if you need setup guides.
+
+> **SmartScreen:** Unsigned installers may show a Windows SmartScreen prompt. Choose **More info**, then **Run anyway**. Setup guides in the Help Center include screenshots.
+
+## Repository layout
 
 ```
-https://github.com/omaralhami/Mar-Tools/raw/main/releases/steamar/SteaMar_3.0.0_x64_en-US.msi
+releases/
+├── steamar/     SteaMar installers
+├── spotimar/    SpotiMar installers
+└── masmar/      MASMar installers (when available)
 ```
 
-Replace the path with the actual filename after you upload a build.
+## Support
 
-## Adding a release
+- **Website:** [martools.net](https://martools.net)
+- **Help Center:** [martools.net/help](https://martools.net/help)
+- **Discord:** [Join the community](https://discord.gg/UkdAQ8q8Et)
 
-1. Build the MSI from the tool’s Tauri project (`npm run tauri build` or your release script).
-2. Copy the `.msi` into the matching folder under `releases/`.
-3. Commit and push to `main`.
-4. Update the download URL in the website admin panel if the filename changed.
+## License
+
+Mar Tools desktop apps are distributed through [martools.net](https://martools.net). Use of the software is subject to the site [Terms of Service](https://martools.net/terms) and [Privacy Policy](https://martools.net/privacy).
