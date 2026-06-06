@@ -16,7 +16,7 @@ Future Mar Tools apps will be released in this repository as they become availab
 
 | App | Version | Description | Download |
 | --- | --- | --- | --- |
-| **SteaMar** | 3.0.0 | Steam library utility | [Download MSI](https://github.com/omaralhami/Mar-Tools/raw/main/releases/steamar/SteaMar_3.0.0_x64_en-US.msi) |
+| **SteaMar** | 3.0.1 | Steam library utility | [MSI](https://github.com/omaralhami/Mar-Tools/raw/main/releases/steamar/SteaMar_3.0.1_x64_en-US.msi) · [Setup (.exe)](https://github.com/omaralhami/Mar-Tools/raw/main/releases/steamar/SteaMar_3.0.1_x64-setup.exe) |
 | **SpotiMar** | 1.0.0 | Spotify client patcher | [Download MSI](https://github.com/omaralhami/Mar-Tools/raw/main/releases/spotimar/SpotiMar_1.0.0_x64_en-US.msi) |
 | **MASMar** | Coming soon | Windows licensing utility | Not yet available |
 
@@ -32,8 +32,8 @@ Some features depend on your membership tier. See the [Help Center](https://mart
 
 ## Getting started
 
-1. Download the installer for the app you want from the table above.
-2. Run the `.msi` file and follow the setup steps.
+1. Download the installer for the app you want from the table above (SteaMar offers an **MSI** or **Setup (.exe)**).
+2. Run the installer and follow the setup steps.
 3. Open the app and sign in with Discord (same account as [martools.net](https://martools.net)).
 4. Visit the [Tools page](https://martools.net/tools) or [Help Center](https://martools.net/help) if you need setup guides.
 

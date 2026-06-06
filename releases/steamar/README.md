@@ -1,5 +1,10 @@
 # SteaMar releases
 
-Place SteaMar MSI installers here.
+Windows installers for SteaMar.
 
-Example: `SteaMar_3.0.0_x64_en-US.msi`
+| File | Type |
+| --- | --- |
+| `SteaMar_*_x64_en-US.msi` | MSI installer (enterprise / silent deploy) |
+| `SteaMar_*_x64-setup.exe` | NSIS setup wizard (recommended for most users) |
+
+Current release: **3.0.1**
