@@ -16,7 +16,7 @@ Future Mar Tools apps will be released in this repository as they become availab
 
 | App | Version | Description | Download |
 | --- | --- | --- | --- |
-| **SteaMar** | 3.0.1 | Steam library utility | [MSI](https://github.com/omaralhami/Mar-Tools/raw/main/releases/steamar/SteaMar_3.0.1_x64_en-US.msi) · [Setup (.exe)](https://github.com/omaralhami/Mar-Tools/raw/main/releases/steamar/SteaMar_3.0.1_x64-setup.exe) |
+| **SteaMar** | 3.0.2 | Steam library utility | [MSI](https://github.com/omaralhami/Mar-Tools/raw/main/releases/steamar/SteaMar_3.0.2_x64_en-US.msi) · [Setup (.exe)](https://github.com/omaralhami/Mar-Tools/raw/main/releases/steamar/SteaMar_3.0.2_x64-setup.exe) |
 | **SpotiMar** | 1.0.0 | Spotify client patcher | [Download MSI](https://github.com/omaralhami/Mar-Tools/raw/main/releases/spotimar/SpotiMar_1.0.0_x64_en-US.msi) |
 | **MASMar** | Coming soon | Windows licensing utility | Not yet available |
 
